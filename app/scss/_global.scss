@@ -1,0 +1,20 @@
+body {
+  min-width: 365px;
+  overflow-x: hidden;
+  font-size: 14px;
+  @extend %opensans-400;
+}
+
+main {
+  padding-top: 26px;
+}
+
+.container {
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.ruble::after {
+  content: "\20BD";
+}
+

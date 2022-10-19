@@ -1,0 +1,23 @@
+$accent-color: #fed74b;
+$default-color: #4b4b4b;
+$title-color: #404040;
+$black-color: #000000;
+$white-color: #ffff;
+
+%opensans-600 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+%opensans-400 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}

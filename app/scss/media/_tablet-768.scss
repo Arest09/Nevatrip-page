@@ -1,0 +1,25 @@
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 100px;
+    margin: 0 auto;
+    max-width: 860px;
+  }
+  .main {
+    &__img {
+      object-fit: cover;
+      min-height: 100%;
+      border-radius: 16px 0px 0px 16px;
+    }
+  }
+  .card {
+    &__content {
+      padding-top: 16px;
+      padding-bottom: 25px;
+    }
+    &__item {
+      display: flex;
+      padding-bottom: 0;
+    }
+  }
+}

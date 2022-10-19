@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://arest09.github.io/Nevatrip-page/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy":"gh-pages -d dist"
+    "deploy":"gh-pages -d dist",
+    "predeploy":"gulp build"
     
   },
   "author": "Arest",
